@@ -28,7 +28,7 @@
     function getWeather(lat, lon) {
         if (!(lat && lon))
             return;
-        var appId = 'XXXX-YYYY-ZZZZ';
+        var appId = 'c41ff71d9fb28721d3665cccd810be54';
         var url = 'http://api.openweathermap.org/data/2.5/weather?lat=' + lat + '&lon=' + lon + '&appid=' + appId + '&units=metric';
         $.ajax({
             url: url,
